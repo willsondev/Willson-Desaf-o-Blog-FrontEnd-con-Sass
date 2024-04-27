@@ -1,12 +1,4 @@
 @charset "UTF-8";
-/* Importar los archivos de Bootstrap */
-/* Importar los archivos Sass de las carpetas */
-.page-container {
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 20px;
-}
-
 .header {
   padding: 20px;
   display: flex;
@@ -322,7 +314,6 @@
 .form__button,
 .form__button_registro {
   width: calc(100% - 22px);
-  /* Consideramos el padding de 10px a cada lado */
   padding: 10px;
   border: 1px solid #ccc;
   border-radius: 5px;
@@ -337,7 +328,7 @@
   width: 100%;
   border: none;
   border-radius: 5px;
-  background-color: #78BE20;
+  background-color: #78be20;
   color: #fff;
   cursor: pointer;
 }
@@ -374,7 +365,6 @@
 
 .span {
   margin-right: 5px;
-  /* Ajusta el valor según sea necesario */
 }
 
 .subscripcion {
@@ -398,7 +388,6 @@
   padding: 20px;
   margin-bottom: 10px;
   margin-right: 10px;
-  /* Añade margen derecho */
   border: 1px solid #ccc;
   border-radius: 5px;
 }
@@ -415,12 +404,11 @@
   background-color: #BEBDBD;
   font-weight: bold;
   font-size: 20px;
-  /* Añade margen izquierdo */
 }
 
 .detalle-post {
   margin-bottom: 20px;
-  background-color: #EEEEEE;
+  background-color: #eeeeee;
 }
 
 .detalle-post__title {
@@ -455,18 +443,14 @@
 .detalle-post__parrafo {
   display: flex;
   flex-direction: column;
-  /* Asegura que los elementos estén apilados verticalmente */
   align-items: center;
-  /* Centra horizontalmente */
   text-align: center;
-  /* Asegura que el texto dentro del div también esté centrado */
 }
 
 .detalle-post__img {
   max-width: 60%;
   padding: 10px;
   border-radius: 20px;
-  /* Asegura que la imagen no sea más ancha que su contenedor */
 }
 
 .small-image {
@@ -475,14 +459,11 @@
 
 .detalle-post__parrafo {
   text-align: justify;
-  /* Alinea el texto justificado */
   line-height: 1.5;
-  /* Establece la altura de línea para mejorar la legibilidad */
 }
 
 .detalle-post__parrafo p {
   margin-bottom: 15px;
-  /* Agrega un espacio entre párrafos */
 }
 
 .articles-relacionados {
