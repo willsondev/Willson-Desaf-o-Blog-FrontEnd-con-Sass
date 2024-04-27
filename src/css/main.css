@@ -1,0 +1,500 @@
+@charset "UTF-8";
+/* Importar los archivos de Bootstrap */
+/* Importar los archivos Sass de las carpetas */
+.page-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.header {
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid #CCCCCC;
+}
+
+.header__logo {
+  width: 100px;
+  height: auto;
+  margin-right: 10px;
+}
+
+.header__title {
+  font-size: 24px;
+  margin: 0;
+  padding-left: 10px;
+}
+
+.blog-section {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #CCCCCC;
+}
+
+.blog-section__main-entry {
+  flex: 1;
+  padding-right: 20px;
+}
+
+/* Estilos del elemento dentro del bloque blog-section (barra lateral) */
+.blog-section__sidebar {
+  width: 25%;
+}
+
+.blog-section__entry-title {
+  font-size: 24px;
+}
+
+.blog-section__entry-content {
+  line-height: 1.6;
+}
+
+.blog-section__sidebar-title {
+  font-size: 20px;
+}
+
+.blog-section__sidebar-list {
+  list-style: none;
+  padding: 0;
+}
+
+.blog-section__sidebar-item {
+  margin-bottom: 10px;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+}
+
+.container__logo__blog {
+  width: 200px;
+  height: 150px;
+  margin-right: 10px;
+  border-radius: 20px;
+}
+
+/* Estilos del título */
+.container__title {
+  margin: 0;
+}
+
+.container {
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 20px;
+}
+
+.container__content {
+  display: flex;
+  align-items: center;
+  margin-right: 20px;
+}
+
+/* Estilos de la imagen */
+.container__logo-sidebar {
+  width: 30px;
+  height: 30px;
+}
+
+/* Estilos de la información */
+.container__info {
+  flex-grow: 1;
+}
+
+/* Estilos de la fecha */
+.container__date {
+  margin: 0;
+  font-size: 14px;
+  color: #666;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+}
+
+.container__logo {
+  width: 50px;
+  height: auto;
+  margin-right: 10px;
+  border-radius: 50px;
+}
+
+.container__logo-sidebar {
+  display: flex;
+  padding: 10px;
+}
+
+.container__title_sidebar {
+  margin: 0;
+}
+
+.sidebar-entry {
+  display: flex;
+  align-items: center;
+}
+
+.sidebar-entry__logo {
+  width: 50px;
+  height: auto;
+  margin-right: 10px;
+  border-radius: 50px;
+}
+
+.sidebar-entry__title {
+  margin: 0;
+}
+
+.small-image {
+  max-width: 50%;
+  height: auto;
+}
+
+.small-image_altura {
+  max-width: 50%;
+  height: 120px;
+}
+
+.blog-section {
+  position: relative;
+}
+
+.section-title {
+  position: absolute;
+  top: 0;
+  left: 3%;
+  transform: translateX(-50%);
+  background-color: #fff;
+  padding: 10px 20px;
+  border-radius: 5px;
+}
+
+.articles-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding-top: 50px;
+}
+
+.blog-section__main-entry {
+  flex-basis: calc(50% - 10px);
+  margin-bottom: 20px;
+  box-sizing: border-box;
+}
+
+.blog-section__sidebar {
+  flex-basis: 25%;
+  margin-left: 20px;
+}
+
+.container__logo__blog__tamaño {
+  width: 100px;
+  height: 60px;
+}
+
+.blog-section__sidebar-item__tamaño {
+  background-color: #666;
+  width: 300px;
+}
+
+.container__content {
+  display: flex;
+  justify-content: space-between;
+}
+
+.parrafo {
+  margin-left: 120px;
+}
+
+/* Color fondo categorias*/
+.red {
+  background-color: #E93E30;
+  color: #fff;
+}
+
+.amarillo {
+  background-color: #F7E018;
+  color: #fff;
+}
+
+.celeste {
+  background-color: #299ED5;
+  color: #fff;
+}
+
+.black {
+  background-color: #292C33;
+  color: #fff;
+}
+
+.react {
+  color: #fff;
+}
+
+.verde {
+  background-color: #67C770;
+  color: #fff;
+}
+
+.morado {
+  background-color: #563D7C;
+  color: #fff;
+}
+
+.footer {
+  padding: 20px;
+}
+
+.footer__content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer__left {
+  display: flex;
+  align-items: center;
+}
+
+.footer__logo {
+  width: 100px;
+  height: auto;
+  margin-right: 10px;
+}
+
+.footer__title {
+  margin: 0;
+  font-size: 24px;
+}
+
+.font-bold {
+  font-weight: 700;
+}
+
+.font-regular {
+  font-weight: 400;
+}
+
+/* Poppins Regular (400) */
+.font-regular {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+}
+
+/* Poppins Medium (500) */
+.font-medium {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+}
+
+/* Poppins Bold (700) */
+.font-bold {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+}
+
+/* Estilos del contenedor de la página */
+.page-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.container_registro {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+.container_registro__title {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.form__group {
+  margin-bottom: 10px;
+}
+
+.form__input,
+.form__button,
+.form__button_registro {
+  width: calc(100% - 22px);
+  /* Consideramos el padding de 10px a cada lado */
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.form__button,
+.form__button_registro {
+  margin-top: 20px;
+}
+
+.form__button {
+  width: 100%;
+  border: none;
+  border-radius: 5px;
+  background-color: #78BE20;
+  color: #fff;
+  cursor: pointer;
+}
+
+.form__button_registro {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  border-radius: 5px;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  cursor: pointer;
+}
+
+.form__button_registro svg {
+  width: 24px;
+  height: 24px;
+  margin-right: 10px;
+}
+
+.span {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  font-size: 14px;
+}
+
+.span__inner {
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.span {
+  margin-right: 5px;
+  /* Ajusta el valor según sea necesario */
+}
+
+.subscripcion {
+  padding: 20px;
+  background-color: #78BE20;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  color: #fff;
+}
+
+.subscripcion__formulario {
+  display: flex;
+}
+
+.subscripcion__title {
+  margin-bottom: 20px;
+}
+
+.subscripcion__input {
+  width: 50%;
+  padding: 20px;
+  margin-bottom: 10px;
+  margin-right: 10px;
+  /* Añade margen derecho */
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.subscripcion__button {
+  padding: 10px 20px;
+  width: 60%;
+  border: none;
+  border-radius: 5px;
+  background-color: #007bff;
+  color: black;
+  cursor: pointer;
+  margin-left: 150px;
+  background-color: #BEBDBD;
+  font-weight: bold;
+  font-size: 20px;
+  /* Añade margen izquierdo */
+}
+
+.detalle-post {
+  margin-bottom: 20px;
+  background-color: #EEEEEE;
+}
+
+.detalle-post__title {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.detalle-post__informacion {
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+
+.detalle-post__logo {
+  width: 50px;
+  height: auto;
+  margin-right: 10px;
+  border-radius: 50%;
+}
+
+.detalle-post__subtitle {
+  font-size: 18px;
+  margin: 0;
+}
+
+.detalle-post__date {
+  font-size: 14px;
+  margin-bottom: 10px;
+  margin-left: 30px;
+}
+
+.detalle-post__parrafo {
+  display: flex;
+  flex-direction: column;
+  /* Asegura que los elementos estén apilados verticalmente */
+  align-items: center;
+  /* Centra horizontalmente */
+  text-align: center;
+  /* Asegura que el texto dentro del div también esté centrado */
+}
+
+.detalle-post__img {
+  max-width: 60%;
+  padding: 10px;
+  border-radius: 20px;
+  /* Asegura que la imagen no sea más ancha que su contenedor */
+}
+
+.small-image {
+  border-radius: 50%;
+}
+
+.detalle-post__parrafo {
+  text-align: justify;
+  /* Alinea el texto justificado */
+  line-height: 1.5;
+  /* Establece la altura de línea para mejorar la legibilidad */
+}
+
+.detalle-post__parrafo p {
+  margin-bottom: 15px;
+  /* Agrega un espacio entre párrafos */
+}
+
+.articles-relacionados {
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+
+.container_relacionados_logo {
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+
+/*# sourceMappingURL=main.css.map */

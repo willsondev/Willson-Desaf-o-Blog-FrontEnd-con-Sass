@@ -1,0 +1,180 @@
+.container {
+    display: flex;
+    align-items: center;
+}
+
+.container__logo__blog {
+    width: 200px;
+    height: 150px;
+    margin-right: 10px;
+    border-radius: 20px;
+}
+
+/* Estilos del título */
+.container__title {
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 20px;
+}
+
+.container__content {
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+}
+
+/* Estilos de la imagen */
+.container__logo-sidebar {
+    width: 30px;
+    height: 30px;
+
+}
+
+/* Estilos de la información */
+.container__info {
+    flex-grow: 1;
+}
+
+/* Estilos de la fecha */
+.container__date {
+    margin: 0;
+    font-size: 14px;
+    color: #666;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+}
+
+.container__logo {
+    width: 50px;
+    height: auto;
+    margin-right: 10px;
+    border-radius: 50px;
+}
+
+.container__logo-sidebar {
+    display: flex;
+    padding: 10px;
+}
+
+.container__title_sidebar {
+    margin: 0;
+}
+
+.sidebar-entry {
+    display: flex;
+    align-items: center;
+}
+
+.sidebar-entry__logo {
+    width: 50px;
+    height: auto;
+    margin-right: 10px;
+    border-radius: 50px;
+}
+
+.sidebar-entry__title {
+    margin: 0;
+}
+
+.small-image {
+    max-width: 50%;
+    height: auto;
+}
+
+.small-image_altura {
+    max-width: 50%;
+    height: 120px;
+}
+
+.blog-section {
+    position: relative;
+}
+
+.section-title {
+    position: absolute;
+    top: 0;
+    left: 03%;
+    transform: translateX(-50%);
+    background-color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+.articles-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding-top: 50px;
+}
+
+.blog-section__main-entry {
+    flex-basis: calc(50% - 10px);
+    margin-bottom: 20px;
+    box-sizing: border-box;
+}
+
+.blog-section__sidebar {
+    flex-basis: 25%;
+    margin-left: 20px;
+}
+
+.container__logo__blog__tamaño {
+    width: 100px;
+    height: 60px;
+}
+
+.blog-section__sidebar-item__tamaño {
+    background-color: #666;
+    width: 300px;
+}
+
+.container__content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.parrafo {
+    margin-left: 120px;
+}
+
+/* Color fondo categorias*/
+.red {
+    background-color: #E93E30;
+    color: #fff;
+}
+
+.amarillo {
+    background-color: #F7E018;
+    color: #fff;
+}
+
+.celeste {
+    background-color: #299ED5;
+    color: #fff;
+}
+
+.black {
+    background-color: #292C33;
+    color: #fff;
+}
+
+.react {
+    color: #fff;
+}
+
+.verde {
+    background-color: #67C770;
+    color: #fff;
+}
+
+.morado {
+    background-color: #563D7C;
+    color: #fff;
+}
