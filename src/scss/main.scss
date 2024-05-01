@@ -1,10 +1,9 @@
-
 @import 'vendors/normalize';
-@import './components/_header.scss';
-@import './components/blog_section.scss';
-@import './components/sidebar.scss';
-@import './components/footer.scss';
-@import './base/typography.scss';
-@import './pages/registro';
+@import './base/typography';
+@import './components/header';
+@import './components/blog_section';
+@import './components/sidebar';
+@import './components/footer';
 @import './components/subscripcion';
+@import './pages/registro';
 @import './pages/detalle-post'

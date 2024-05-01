@@ -1,4 +1,29 @@
 @charset "UTF-8";
+/* Poppins Regular (400) */
+.font-regular {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+}
+
+/* Poppins Medium (500) */
+.font-medium {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+}
+
+/* Poppins Bold (700) */
+.font-bold {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+}
+
+/* Estilos del contenedor de la página */
+.page-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
 .header {
   padding: 20px;
   display: flex;
@@ -32,6 +57,7 @@
 /* Estilos del elemento dentro del bloque blog-section (barra lateral) */
 .blog-section__sidebar {
   width: 25%;
+  margin-left: 200px;
 }
 
 .blog-section__entry-title {
@@ -269,29 +295,43 @@
   font-weight: 400;
 }
 
-/* Poppins Regular (400) */
-.font-regular {
-  font-family: "Poppins", sans-serif;
-  font-weight: 400;
-}
-
-/* Poppins Medium (500) */
-.font-medium {
-  font-family: "Poppins", sans-serif;
-  font-weight: 500;
-}
-
-/* Poppins Bold (700) */
-.font-bold {
-  font-family: "Poppins", sans-serif;
-  font-weight: 700;
-}
-
-/* Estilos del contenedor de la página */
-.page-container {
-  max-width: 1200px;
-  margin: 0 auto;
+.subscripcion {
   padding: 20px;
+  background-color: #78BE20;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  color: #fff;
+}
+
+.subscripcion__formulario {
+  display: flex;
+}
+
+.subscripcion__title {
+  margin-bottom: 20px;
+}
+
+.subscripcion__input {
+  width: 50%;
+  padding: 20px;
+  margin-bottom: 10px;
+  margin-right: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.subscripcion__button {
+  padding: 10px 20px;
+  width: 60%;
+  border: none;
+  border-radius: 5px;
+  background-color: #007bff;
+  color: black;
+  cursor: pointer;
+  margin-left: 150px;
+  background-color: #BEBDBD;
+  font-weight: bold;
+  font-size: 20px;
 }
 
 .container_registro {
@@ -365,45 +405,6 @@
 
 .span {
   margin-right: 5px;
-}
-
-.subscripcion {
-  padding: 20px;
-  background-color: #78BE20;
-  border-radius: 5px;
-  margin-bottom: 20px;
-  color: #fff;
-}
-
-.subscripcion__formulario {
-  display: flex;
-}
-
-.subscripcion__title {
-  margin-bottom: 20px;
-}
-
-.subscripcion__input {
-  width: 50%;
-  padding: 20px;
-  margin-bottom: 10px;
-  margin-right: 10px;
-  border: 1px solid #ccc;
-  border-radius: 5px;
-}
-
-.subscripcion__button {
-  padding: 10px 20px;
-  width: 60%;
-  border: none;
-  border-radius: 5px;
-  background-color: #007bff;
-  color: black;
-  cursor: pointer;
-  margin-left: 150px;
-  background-color: #BEBDBD;
-  font-weight: bold;
-  font-size: 20px;
 }
 
 .detalle-post {
